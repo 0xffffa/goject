@@ -1,8 +1,8 @@
-# Goloader - x86/x64 Reflective Dll Loader
+# goject - x86/x64 Reflective Dll Injector
 
 Reflectively load x86/x64 from memory
 
-Please note this is a VERY basic & bare bones reflective loader.
+Please note this is a VERY basic & bare bones reflective injector.
 
 # Installation
 
