@@ -1,4 +1,4 @@
-module github.com/0xffffa/goloader/cmd/injector
+module github.com/0xffffa/goject/cmd/injector
 
 go 1.22.6
 

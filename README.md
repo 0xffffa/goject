@@ -8,19 +8,19 @@ Please note this is a VERY basic & bare bones reflective injector.
 
 Below is how you install it as a library
 ```
-go get github.com/0xffffa/goloader
+go get github.com/0xffffa/goject
 ```
 
 And here's how you install it as a cmd to inject a dll to a process
 ```
-go install github.com/0xffffa/goloader/cmd/injector
+go install github.com/0xffffa/goject/cmd/injector
 ```
 
 # Usage
 
 Here's an example of using it as a command:
 ```
-goloader <dll> <process_name>
+goject <dll> <process_name>
 ```
 
 Lastly, here's an example program:
@@ -28,7 +28,7 @@ Lastly, here's an example program:
 package main
 
 import (
-    loader "github.com/0xffffa/goloader"
+    loader "github.com/0xffffa/goject"
     "github.com/mitchellh/go-ps"
 )
 

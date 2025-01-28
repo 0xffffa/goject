@@ -1,6 +1,5 @@
 package loader
 
 func Inject(pid int, dll []byte) error {
-
-	return nil
+	return inject(pid, dll)
 }

@@ -6,13 +6,13 @@ import (
 	"os"
 	"strings"
 
-	loader "github.com/0xffffa/goloader"
+	loader "github.com/0xffffa/goject"
 	"github.com/mitchellh/go-ps"
 )
 
 func main() {
 	if len(os.Args) != 3 {
-		fmt.Println("Usage: goloader <dll> <process_name>")
+		fmt.Println("Usage: goject <dll> <process_name>")
 		return
 	}
 
@@ -20,7 +20,7 @@ func main() {
 	processName := os.Args[2]
 
 	if len(dllPath) == 0 || len(processName) == 0 {
-		fmt.Println("Usage: goloader <dll> <process_name>")
+		fmt.Println("Usage: goject <dll> <process_name>")
 		return
 	}
 
